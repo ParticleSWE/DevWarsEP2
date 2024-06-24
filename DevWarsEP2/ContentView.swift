@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject private var viewModel: CourseViewModel
+    
+    @State private var isLoggedIn = false
+    @AppStorage("LastLoggedInUser") var lastLoggedInUser = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                if isLoggedIn == false {
+                    LoginView(isLoggedIn: $isLoggedIn)
+                }
+                else {
+                    CompactUserView()
+                    ActiveCoursesView()
+                }
+            }.toolbar {
+                if isLoggedIn == true {
+                    NavigationLink("\(Image(systemName: "plus.circle"))", destination: AllCoursesView()).font(.title2)
+                }
+            }.background(Color("BackgroundColor").gradient)
         }
-        .padding()
     }
 }
 

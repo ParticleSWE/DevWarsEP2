@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct DevWarsEP2App: App {
+    
+    @StateObject private var viewModel = CourseViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(viewModel)
         }
     }
 }

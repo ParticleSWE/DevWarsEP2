@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D56EEC12C28A9FC00B989F4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56EEC02C28A9FC00B989F4 /* LoginView.swift */; };
+		0D56EEC32C28AD6A00B989F4 /* CompactUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56EEC22C28AD6A00B989F4 /* CompactUserView.swift */; };
+		0D56EEC52C28AEB300B989F4 /* Courses.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D56EEC42C28AEB300B989F4 /* Courses.json */; };
+		0D56EEC72C28B18B00B989F4 /* ActiveCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56EEC62C28B18B00B989F4 /* ActiveCoursesView.swift */; };
+		0D56EEC92C28B1A400B989F4 /* AllCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56EEC82C28B1A400B989F4 /* AllCoursesView.swift */; };
+		0D56EECB2C28B1B500B989F4 /* DetailedCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56EECA2C28B1B500B989F4 /* DetailedCoursesView.swift */; };
 		0D7305C32C21B40700C49DE5 /* DevWarsEP2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7305C22C21B40700C49DE5 /* DevWarsEP2App.swift */; };
 		0D7305C52C21B40700C49DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7305C42C21B40700C49DE5 /* ContentView.swift */; };
 		0D7305C72C21B40800C49DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7305C62C21B40800C49DE5 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D56EEC02C28A9FC00B989F4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0D56EEC22C28AD6A00B989F4 /* CompactUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactUserView.swift; sourceTree = "<group>"; };
+		0D56EEC42C28AEB300B989F4 /* Courses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Courses.json; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/ExerciseApp/Courses.json"; sourceTree = "<group>"; };
+		0D56EEC62C28B18B00B989F4 /* ActiveCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCoursesView.swift; sourceTree = "<group>"; };
+		0D56EEC82C28B1A400B989F4 /* AllCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoursesView.swift; sourceTree = "<group>"; };
+		0D56EECA2C28B1B500B989F4 /* DetailedCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCoursesView.swift; sourceTree = "<group>"; };
 		0D7305BF2C21B40700C49DE5 /* DevWarsEP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevWarsEP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7305C22C21B40700C49DE5 /* DevWarsEP2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevWarsEP2App.swift; sourceTree = "<group>"; };
 		0D7305C42C21B40700C49DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +109,12 @@
 			children = (
 				0D7305C22C21B40700C49DE5 /* DevWarsEP2App.swift */,
 				0D7305C42C21B40700C49DE5 /* ContentView.swift */,
+				0D56EEC62C28B18B00B989F4 /* ActiveCoursesView.swift */,
+				0D56EEC82C28B1A400B989F4 /* AllCoursesView.swift */,
+				0D56EECA2C28B1B500B989F4 /* DetailedCoursesView.swift */,
+				0D56EEC22C28AD6A00B989F4 /* CompactUserView.swift */,
+				0D56EEC42C28AEB300B989F4 /* Courses.json */,
+				0D56EEC02C28A9FC00B989F4 /* LoginView.swift */,
 				0D7305C62C21B40800C49DE5 /* Assets.xcassets */,
 				0D7305C82C21B40800C49DE5 /* DevWarsEP2.entitlements */,
 				0D7305C92C21B40800C49DE5 /* Preview Content */,
@@ -233,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D56EEC52C28AEB300B989F4 /* Courses.json in Resources */,
 				0D7305CB2C21B40800C49DE5 /* Preview Assets.xcassets in Resources */,
 				0D7305C72C21B40800C49DE5 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D56EEC12C28A9FC00B989F4 /* LoginView.swift in Sources */,
+				0D56EEC72C28B18B00B989F4 /* ActiveCoursesView.swift in Sources */,
+				0D56EECB2C28B1B500B989F4 /* DetailedCoursesView.swift in Sources */,
+				0D56EEC32C28AD6A00B989F4 /* CompactUserView.swift in Sources */,
 				0D7305C52C21B40700C49DE5 /* ContentView.swift in Sources */,
 				0D7305C32C21B40700C49DE5 /* DevWarsEP2App.swift in Sources */,
+				0D56EEC92C28B1A400B989F4 /* AllCoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +448,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ThePE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -432,9 +458,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -442,10 +467,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ParticleSWE.DevWarsEP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,6 +488,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ThePE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -470,9 +498,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -480,10 +507,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ParticleSWE.DevWarsEP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
